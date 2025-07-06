@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyac - 下一代全栈函数即服务平台</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="background-animation"></div>
+
+    <header class="container">
+        <a href="#" class="logo">
+            <img src="favicon.ico" alt="Hyac Logo" class="logo-icon">
+            Hyac<span>.</span>
+        </a>
+        <nav>
+            <a href="#features" data-lang-key="nav_features">特性</a>
+            <a href="https://docs.hyacos.top" data-lang-key="nav_docs">文档</a>
+            <a href="https://github.com/Pidbid/Hyac" target="_blank">GitHub</a>
+            <div class="lang-switcher" id="lang-switcher">中 / EN</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-lang-key="hero_title">下一代全栈 <span class="highlight">函数即服务</span> 平台</h1>
+                <p data-lang-key="hero_subtitle">一个基于 FastAPI & Vue 3 构建，由 Docker 驱动的、高度可扩展的开源 FaaS 解决方案，专为开发者设计。</p>
+                <a href="http://server.htacos.top" class="cta-button" data-lang-key="hero_cta">
+                    立即尝试
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2 data-lang-key="features_title">核心优势</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">🚀</div>
+                        <h3 data-lang-key="feature1_title">动态执行器</h3>
+                        <p data-lang-key="feature1_desc">在隔离的 Docker 容器中动态加载、执行函数代码，并支持依赖项的动态安装与代码热更新。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">📦</div>
+                        <h3 data-lang-key="feature2_title">容器化架构</h3>
+                        <p data-lang-key="feature2_desc">基于 Docker 和 Docker Compose，实现服务的快速部署、管理和水平扩展，保证环境一致性。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">💻</div>
+                        <h3 data-lang-key="feature3_title">现代技术栈</h3>
+                        <p data-lang-key="feature3_desc">后端采用 FastAPI & Beanie，前端基于 Vue 3 & Naive UI，提供极致的开发体验和高性能。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🔧</div>
+                        <h3 data-lang-key="feature4_title">开发者友好</h3>
+                        <p data-lang-key="feature4_desc">内置 Monaco Editor，提供丰富的在线代码编辑体验。通过 MinIO 管理文件，提供强大的对象存储能力。</p>
+                    </div>
+                     <div class="feature-card">
+                        <div class="icon">📈</div>
+                        <h3 data-lang-key="feature5_title">全方位监控</h3>
+                        <p data-lang-key="feature5_desc">实时日志查看、运行时状态监控和应用统计，让您对函数应用的运行状况了如指掌。</p>
+                    </div>
+                     <div class="feature-card">
+                        <div class="icon">🛡️</div>
+                        <h3 data-lang-key="feature6_title">安全可靠</h3>
+                        <p data-lang-key="feature6_desc">使用 JWT 进行用户认证，并通过 Nginx 反向代理保障服务安全，提供稳定可靠的函数计算环境。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_text">&copy; 2025 Hyac. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+
+</body>
+</html>
